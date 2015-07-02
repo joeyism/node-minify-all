@@ -1,11 +1,11 @@
 {
   "name": "minify-all",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A tool that minifies all .js files in a folder and its nested folders",
   "main": "index.js",
-  "repository":{
-    "type":"git",
-    "url":"git+https://github.com/joeyism/node-minify-all.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/node-minify-all.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,8 +26,8 @@
     "css"
   ],
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
-  "bugs":{
-    "url":"https://github.com/joeyism/node-minify-all/issues"
+  "bugs": {
+    "url": "https://github.com/joeyism/node-minify-all/issues"
   },
   "homepage": "https://github.com/joeyism/node-minify-all#readme",
   "license": "ISC",
