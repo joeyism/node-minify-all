@@ -9,6 +9,7 @@
   "bin": {
     "minify-all": "index.js"
   },
+  "keywords": ["minify","all","javascript","uglify","uglifyjs","gcc","yui","sqwish","csso","css"],
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
   "license": "ISC",
   "devDependencies": {

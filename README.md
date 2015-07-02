@@ -1,6 +1,6 @@
 # Minify-All
 
-A function that minifies your javascript files, and all the javascript files in your nested folders as well. **Minify-All** can be used as a CLI or can be run in your code. By giving it a directory, Minify-All will walk through the depth of your folders and minify all the javascript that it sees.
+A function that minifies your javascript or css files, and all the javascript or css files in your nested folders as well. **Minify-All** can be used as a CLI or can be run in your code. By giving it a directory, Minify-All will walk through the depth of your folders and minify all the javascript that it sees.
 
 ### Installation
 

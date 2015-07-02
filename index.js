@@ -23,7 +23,7 @@ var minifyAll = function(dir, options, callback){
     options.type = options.type || inputMinType;
 
     walk(dir, function(path, result){
-        if (path.substr(-3) === ".js"){
+        if (path.substr(-3) === ".js" || path.substr(-4) === ".css"){
             if (!options.silent){
                 console.log("found file: " + path);
             }
