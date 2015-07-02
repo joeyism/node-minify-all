@@ -31,8 +31,8 @@ The callback outputs 2 options:
 
 ### Options
 
-**silent**
+* **silent**
 If silent mode is on, then logs of which files has been found won't be displayed
 
-**type**
+* **type**
 Determines the compression type the file should be put through. As **Minify-All** depends on **node-minify**, these types are defined by **node-minify** and can be found [here](https://www.npmjs.com/package/node-minify). If a type is not specified, then by default it is *uglifyjs*
