@@ -1,7 +1,7 @@
 {
   "name": "minify-all",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A tool that minifies all .js files in a folder and its nested folders",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,6 @@
   "bin": {
     "minify-all": "index.js"
   },
-  "description": "A tool that minifies all .js files in a folder and its nested folders",
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
   "license": "ISC",
   "devDependencies": {
