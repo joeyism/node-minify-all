@@ -3,7 +3,7 @@ var fs = require("fs");
 var path = require("path");
 var input = process.argv;
 var inputDir = input[2];
-var inputMinType = input[3];
+var inputMinType = input[3] || "uglifyjs";
 var compressor = require("node-minify");
 
 var walk = function(currentDirPath, callback) {
@@ -20,6 +20,7 @@ var walk = function(currentDirPath, callback) {
 
 var minifyAll = function(dir, options, callback){
     options = options || {};
+    options.type = options.type || inputMinType;
 
     walk(dir, function(path, result){
         if (path.substr(-3) === ".js"){
@@ -27,7 +28,7 @@ var minifyAll = function(dir, options, callback){
                 console.log("found file: " + path);
             }
             new compressor.minify({
-                type: "uglifyjs", 
+                type: options.type, 
                 fileIn: path, 
                 fileOut: path, 
                 callback: callback || function(err, min){
