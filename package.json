@@ -1,6 +1,6 @@
 {
   "name": "minify-all",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A tool that minifies all .js files in a folder and its nested folders",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,18 @@
   "bin": {
     "minify-all": "index.js"
   },
-  "keywords": ["minify","all","javascript","uglify","uglifyjs","gcc","yui","sqwish","csso","css"],
+  "keywords": [
+    "minify",
+    "all",
+    "javascript",
+    "uglify",
+    "uglifyjs",
+    "gcc",
+    "yui",
+    "sqwish",
+    "csso",
+    "css"
+  ],
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
   "license": "ISC",
   "devDependencies": {
