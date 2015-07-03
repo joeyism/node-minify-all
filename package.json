@@ -23,7 +23,14 @@
     "yui",
     "sqwish",
     "csso",
-    "css"
+    "css",
+    "cli"
+    "command",
+    "line",
+    "js",
+    "min",
+    "dist",
+    "reduce"
   ],
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
   "bugs": {
