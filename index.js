@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 var fs = require("fs");
 var path = require("path");
-var input = process.argv;
-var inputDir = input[2];
-var inputMinType = input[3] || "uglifyjs";
+var inputMinType = "uglifyjs";
 var compressor = require("node-minify");
 
 var walk = function(currentDirPath, callback) {
@@ -40,9 +38,11 @@ var minifyAll = function(dir, options, callback){
         }
     });
 };
-
-if (inputDir){
+if (require.main === module) {
+    var input = process.argv, 
+        inputDir = input[2], 
+        inputMinType = input[3] || inputMinType;
     minifyAll(inputDir);
+} else {
+    module.exports = minifyAll;
 }
-
-module.exports = minifyAll;
