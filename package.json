@@ -1,6 +1,6 @@
 {
   "name": "minify-all",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A tool that minifies all .js files in a folder and its nested folders",
   "main": "index.js",
   "repository": {
@@ -44,7 +44,8 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "node-minify": "^1.1.0",
-    "promise": "^7.0.3"
+    "@node-minify/babel-minify": "^6.1.0",
+    "@node-minify/core": "^6.1.0",
+    "@node-minify/uglify-js": "^6.1.0"
   }
 }
