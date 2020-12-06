@@ -1,2 +1,5 @@
 node_modules
 test/sample-project/node_modules
+tags
+*.swp
+*.swo
